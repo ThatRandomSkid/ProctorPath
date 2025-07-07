@@ -1,4 +1,4 @@
-import{j as e}from"./index-uthOKaDH.js";import"./mainUVVaryingDeclaration-DEVQsxgz.js";const t="prePassDeclaration",C=`#ifdef PREPASS
+import{j as e}from"./index-mnTSl45J.js";import"./mainUVVaryingDeclaration--XTU4AOt.js";const t="prePassDeclaration",C=`#ifdef PREPASS
 #ifdef PREPASS_LOCAL_POSITION
 varying vPosition : vec3f;
 #endif

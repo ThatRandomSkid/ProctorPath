@@ -1,4 +1,4 @@
-import{j as e}from"./index-uthOKaDH.js";import"./mainUVVaryingDeclaration-Qak8TwyJ.js";const o="decalFragmentDeclaration",I=`#ifdef DECAL
+import{j as e}from"./index-mnTSl45J.js";import"./mainUVVaryingDeclaration-BrrP7UK3.js";const o="decalFragmentDeclaration",I=`#ifdef DECAL
 uniform vec4 vDecalInfos;
 #endif
 `;e.IncludesShadersStore[o]||(e.IncludesShadersStore[o]=I);const t="defaultFragmentDeclaration",A=`uniform vec4 vEyePosition;uniform vec4 vDiffuseColor;uniform vec4 vSpecularColor;uniform vec3 vEmissiveColor;uniform vec3 vAmbientColor;uniform float visibility;
