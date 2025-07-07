@@ -33,7 +33,7 @@ const createScene = async function () {
         const result = await SceneLoader.ImportMeshAsync(
             "",         // Import all meshes
             "/",        // Root URL (from the 'public' folder)
-            "assets/360_portch_gs2_export2.splat", // The actual filename (no URL encoding needed)
+            "splats/360_portch_gs2_export2.splat", // The actual filename (no URL encoding needed)
             scene
         );
 
