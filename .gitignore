@@ -13,6 +13,7 @@ dist-ssr
 *.local
 360_portch_gs2(export).ply
 .env
+assets
 
 # Editor directories and files
 .vscode/*
