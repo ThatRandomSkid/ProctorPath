@@ -1,4 +1,4 @@
-import{j as e}from"./index-Ilvm9Bp6.js";import"./mainUVVaryingDeclaration-BrKXZpxP.js";const n="decalVertexDeclaration",O=`#ifdef DECAL
+import{j as e}from"./index-uthOKaDH.js";import"./mainUVVaryingDeclaration-Qak8TwyJ.js";const n="decalVertexDeclaration",O=`#ifdef DECAL
 uniform vec4 vDecalInfos;uniform mat4 decalMatrix;
 #endif
 `;e.IncludesShadersStore[n]||(e.IncludesShadersStore[n]=O);const t="defaultVertexDeclaration",U=`uniform mat4 viewProjection;
