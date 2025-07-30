@@ -1,29 +1,27 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <title>Babylon Walking</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Modern Babylon.js Project</title>
     <style>
-      html, body, #app {
-        overflow: hidden;
+      html, body {
         width: 100%;
         height: 100%;
+        overflow: hidden;
         margin: 0;
         padding: 0;
       }
       #renderCanvas {
         width: 100%;
         height: 100%;
-        touch-action: none;
+        display: block;
+        outline: none; /* avoid focus outline */
       }
     </style>
   </head>
   <body>
-    <div id="app">
-      <canvas id="renderCanvas"></canvas>
-    </div>
+    <canvas id="renderCanvas"></canvas>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
