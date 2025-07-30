@@ -12,7 +12,8 @@ dist-ssr
 *.local
 360_portch_gs2(export).ply
 .env
-Babylon/assets
+Babylon/public/assets
+
 
 # Editor directories and files
 .vscode/*

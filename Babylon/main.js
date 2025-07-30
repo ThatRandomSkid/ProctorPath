@@ -6,9 +6,9 @@ import { ArcRotateCamera } from "@babylonjs/core/Cameras/arcRotateCamera";
 
 // This is the module-level function for loading!
 import { SceneLoader } from "@babylonjs/core/Loading/sceneLoader";
+import "@babylonjs/loaders";
 
 // This is CRITICAL. It imports the side effects for the splat loader and registers it.
-import "@babylonjs/loaders/Splat/splatFileLoader";
 
 
 const canvas = document.getElementById("renderCanvas");
@@ -32,8 +32,8 @@ const createScene = async function () {
         // Vite serves everything from the 'public' folder at the root URL.
         const result = await SceneLoader.ImportMeshAsync(
             "",         // Import all meshes
-            "/",        // Root URL (from the 'public' folder)
-            "assets/360_portch_gs2_export2.splat", // The actual filename (no URL encoding needed)
+            "/assets/",        // Root URL (from the 'public' folder)
+            "maxwell_rotunda.ply", // The actual filename (no URL encoding needed)
             scene
         );
 
